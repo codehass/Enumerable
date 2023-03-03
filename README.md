@@ -1,7 +1,7 @@
 <a name="readme-top" align="center"></a>
 
 <div align="center">
-  MORSE CODE DECODER
+  <h1>Enumerable</h1>
   <br/>
 
 </div>
@@ -31,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 MORSE CODE DECODER <a name="about-project"></a>
+# 📖 Enumerable <a name="about-project"></a>
 
-**MORSE CODE DECODER** The Morse Code Decoder is a program built with ruby to automate the decryption of morse code messages.
+In this project we([@codehass](https://github.com/codehass) and [@elarhadu](https://github.com/elarhadu)) used a module inside a class. For this we created a class MyList and a module MyEnumerable. The module MyEnumerable implemented a subset of the functionality of Enumerable.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,8 +45,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Decode morse numbers and alphabeth
-- Decode an entire word/message in Morse code, takes a string parameter, and return the string representation
+- Create a module MyEnumerable that implements the following methods (they should have the same funcionality as methods in Enumerable):
+  -- #all?
+  -- #any?
+  -- #filter
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,8 +75,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-git@github.com:codehass/Decode-Morse.git
-cd Decode-Morse
+git@github.com:codehass/Enumerable.git
+cd Enumerable
 ```
 
 <!-- ### Install
@@ -133,7 +135,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Decode special characters
+```sh
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,7 +147,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/codehass/Decode-Morse/issues).
+Feel free to check the [issues page](https://github.com/codehass/Enumerable/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
