@@ -1,6 +1,6 @@
-require_relative './my_enumerable.rb'
+require_relative './my_enumerable'
 
-class MyList 
+class MyList
   include MyEnumerable
 
   def initialize(*list)
@@ -10,5 +10,4 @@ class MyList
   def each(&block)
     @list.each(&block)
   end
-
 end
