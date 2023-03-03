@@ -1,21 +1,20 @@
 module MyEnumerable
-  #all
+  # all
   def all?
     each { |item| return false unless yield item }
     true
   end
 
-  #any
+  # any
   def any?
-    each  {|item| return true if yield(item)}
+    each { |item| return true if yield(item) }
     false
   end
 
-  #filter
-  def filter?(&block)
+  # filter
+  def filter?
     result = []
-    each { |e| result << e  if yield e }
+    each { |e| result << e if yield e }
     result
   end
-
 end
